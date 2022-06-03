@@ -1,0 +1,79 @@
+body{
+    background: url("labda.jpg") 6px 6px;
+}
+#menu1 { 
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 1em 0;
+    list-style-type: none;
+    background-color: #000;
+}
+#menu1 li { display:inline }
+li#belepes{
+    float:right;
+}
+
+#menu1 a {
+    float:left;
+    padding: 0.25em 1em;
+    margin: 0.25em 0 0.25em 1em; 
+    color: #DDD;
+    text-decoration: none;
+}
+#menu1 a:hover { background-color:#333}
+footer{
+    color: #DDD;
+    float: left;
+    width: 100%;
+    padding: 0.25em;
+    margin: 0;
+    list-style-type: none;
+    background-color: #000;
+}
+#elso{
+    background-color: #DDD;
+    opacity: 0.8;
+    width: 510px;
+    float: left;
+}
+h1{
+    color: rgb(10, 10, 10);
+    opacity: 1.5;
+    width: 500px;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+p{
+    color: black;
+    width: 500px;
+    margin: 0px;
+    padding-bottom: 20px; 
+}
+#videok{
+    float : right;
+}
+#kapcsolat {
+	width: 500px;
+	}
+label {
+	line-height: 30px;
+
+	}
+label input, label textarea {
+	/*position: relative;
+	left: 200px;*/
+	float: right;
+	border: 2px red solid;
+	padding: 2px;
+	}
+textarea {
+	width: 350px;
+	}
+input[type="submit"] {
+	float: right;
+	clear: both;
+	}
+button {
+	float: right;
+	}
